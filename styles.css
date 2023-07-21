@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #FDF8FF;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+}
+._container{
+    max-width: 1046px;
+    margin: 0 auto;
+}
