@@ -4,17 +4,65 @@
     margin: 0;
     padding: 0;
     border: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
-body{
+
+body {
+
+    color: #07090F;
+    font-size: 14px;
+    font-weight: 400;
     background-color: #FDF8FF;
     font-family: 'Montserrat', sans-serif;
 }
-.wrapper{
+
+.wrapper {
     min-height: 100%;
     overflow: hidden;
 }
-._container{
+
+._container {
     max-width: 1046px;
     margin: 0 auto;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    background-color: #95BF74;
+
+}
+
+.header__container {
+    display: flex;
+    min-height: 104px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.header__social-media {
+
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.social-media__item {
+    list-style-type: none;
+}
+
+.social-media__link img {
+    max-block-size: 50px;
+    min-block-size: 20px;
+
+    filter: invert(2%) sepia(33%) saturate(3517%) hue-rotate(211deg) brightness(105%) contrast(96%);
 }
